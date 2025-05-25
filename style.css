@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #1d1d1d, #3d3d3d);
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 700px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #ffcc00;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.instagram { background: #E1306C; }
+.facebook { background: #3b5998; }
+.tiktok { background: #010101; }
+.youtube { background: #FF0000; }
+
+.card:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
